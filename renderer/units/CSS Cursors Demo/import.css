@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#css-cursors-demo-unit h2
+{
+    text-align: center;
+    user-select: text;
+    cursor: text;
+}
+
+#css-cursors-demo-unit table
+{
+    color: var(--color);
+    background-color: white;
+    margin-bottom: 0.75em;
+}
+
+#css-cursors-demo-unit tr
+{
+    user-select: text;
+    cursor: text;
+}
+
+#css-cursors-demo-unit th,
+#css-cursors-demo-unit td
+{
+    vertical-align: middle;
+}
+
+#css-cursors-demo-unit th
+{
+    width: 10em;
+    font-family: Monaco, "DejaVu Sans Mono", "Noto Mono", monospace;
+    font-size: 16px;
+    padding: 0.5em 1em;
+    height: 4em;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#css-cursors-demo-unit th:hover
+{
+    color: var(--color-accent);
+    background: var(--color-accent) linear-gradient(hsla(0, 0%, 100%, 0.9), hsla(0, 0%, 100%, 0.9));
+}
+
+#css-cursors-demo-unit td
+{
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+#css-cursors-demo-unit summary
+{
+    font-weight: bold;
+    margin: 1.2em 0 1em 0;
+}

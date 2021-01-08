@@ -1,0 +1,74 @@
+[
+    [
+        {
+            "name": "Converting Between XML and JSON",
+            "href": "https://www.xml.com/pub/a/2006/05/31/converting-between-xml-and-json.html"
+        },
+        {
+            "name": "Index of /download/prj/jsonxml",
+            "href": "https://goessner.net/download/prj/jsonxml/"
+        }
+    ],
+    [
+        {
+            "name": "Converting XML to JSON using Recursion",
+            "href": "https://dev.to/niinpatel/converting-xml-to-json-using-recursion-2k4j"
+        },
+        {
+            "name": "Convert XML to JSON with JavaScript",
+            "href": "https://davidwalsh.name/convert-xml-json"
+        },
+        {
+            "name": "JSON and XML Conversion",
+            "href": "http://wiki.open311.org/JSON_and_XML_Conversion/"
+        },
+        {
+            "name": "Badgerfish",
+            "href": "http://badgerfish.ning.com/"
+        }
+    ],
+    [
+        {
+            "name": "Parsing and serializing XML - Developer guides | MDN",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/Guide/Parsing_and_serializing_XML"
+        },
+        {
+            "name": "DOMParser - Web APIs | MDN",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser"
+        },
+        {
+            "name": "DOMParser() - Web APIs | MDN",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/DOMParser"
+        },
+        {
+            "name": "Whitespace in the DOM - Web APIs | MDN",
+            "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Whitespace_in_the_DOM"
+        }
+    ],
+    [
+        {
+            "name": "Valid characters in XML - Wikipedia",
+            "href": "https://en.wikipedia.org/wiki/Valid_characters_in_XML"
+        }
+    ],
+    [
+        {
+            "name": "JsonML (JSON Markup Language)",
+            "href": "http://www.jsonml.org/"
+        },
+        {
+            "name": "JsonML-related tools for losslessly converting between XML/HTML and JSON, including mixed-mode XML.",
+            "href": "https://github.com/mckamey/jsonml"
+        }
+    ],
+    [
+        {
+            "name": "JSON",
+            "href": "https://json.org/"
+        },
+        {
+            "name": "JSON Example",
+            "href": "https://json.org/example.html"
+        }
+    ]
+]

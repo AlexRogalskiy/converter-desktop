@@ -1,0 +1,612 @@
+[
+    {
+        "category": "Framework",
+        "items":
+        [
+            {
+                "name": "System Version",
+                "value": "require ('electron').remote.process.getSystemVersion ()"
+            },
+            {
+                "name": "Platform",
+                "value": "require ('electron').remote.process.platform"
+            },
+            {
+                "name": "Architecture",
+                "value": "require ('electron').remote.process.arch"
+            },
+            {
+                "name": "Default App",
+                "value": "require ('electron').remote.process.defaultApp || false"
+            },
+            {
+                "name": "Mac App Store App",
+                "value": "require ('electron').remote.process.mas || false"
+            },
+            {
+                "name": "Windows Store App",
+                "value": "require ('electron').remote.process.windowsStore || false"
+            },
+            {
+                "name": "Version String",
+                "value": "require ('electron').remote.process.version"
+            },
+            {
+                "name": "Node Version",
+                "value": "require ('electron').remote.process.versions.node"
+            },
+            {
+                "name": "V8 Version",
+                "value": "require ('electron').remote.process.versions.v8"
+            },
+            {
+                "name": "ICU Version",
+                "value": "require ('electron').remote.process.versions.icu"
+            },
+            {
+                "name": "Unicode Version",
+                "value": "require ('electron').remote.process.versions.unicode"
+            },
+            {
+                "name": "Electron Version",
+                "value": "require ('electron').remote.process.versions.electron"
+            },
+            {
+                "name": "Chromium Version",
+                "value": "require ('electron').remote.process.versions.chrome"
+            },
+            {
+                "name": "All Versions",
+                "value": "require ('electron').remote.process.versions"
+            },
+            {
+                "name": "Features",
+                "value": "require ('electron').remote.process.features"
+            },
+            {
+                "name": "Release",
+                "value": "require ('electron').remote.process.release"
+            },
+            {
+                "name": "Resources Directory",
+                "value": "require ('electron').remote.process.resourcesPath"
+            },
+            {
+                "name": "Electron Module Path",
+                "value": "require.resolve ('electron')"
+            }
+        ]
+    },
+    {
+        "category": "Main Process",
+        "items":
+        [
+            {
+                "name": "Process Type",
+                "value": "require ('electron').remote.process.type"
+            },
+            {
+                "name": "Process ID",
+                "value": "require ('electron').remote.process.pid"
+            },
+            {
+                "name": "Process Memory",
+                "value": "require ('electron').remote.process.getProcessMemoryInfo ()"
+            },
+            {
+                "name": "System Memory",
+                "value": "require ('electron').remote.process.getSystemMemoryInfo ()"
+            },
+            {
+                "name": "Memory Usage",
+                "value": "require ('electron').remote.process.memoryUsage ()"
+            },
+            {
+                "name": "Heap Statistics",
+                "value": "require ('electron').remote.process.getHeapStatistics ()"
+            },
+            {
+                "name": "Process Uptime (Sec.)",
+                "value": "require ('electron').remote.process.uptime ()"
+            },
+            {
+                "name": "Command Line Arguments",
+                "value": "require ('electron').remote.process.argv"
+            },
+            {
+                "name": "Original Argument [0]",
+                "value": "require ('electron').remote.process.argv0"
+            },
+            {
+                "name": "Executable File",
+                "value": "require ('electron').remote.process.execPath"
+            },
+            {
+                "name": "Helper Executable File",
+                "value": "require ('electron').remote.process.helperExecPath"
+            }
+        ]
+    },
+    {
+        "category": "Renderer Process",
+        "items":
+        [
+            {
+                "name": "Process Type",
+                "value": "process.type"
+            },
+            {
+                "name": "Process ID",
+                "value": "process.pid"
+            },
+            {
+                "name": "Process Memory",
+                "value": "process.getProcessMemoryInfo ()"
+            },
+            {
+                "name": "System Memory",
+                "value": "process.getSystemMemoryInfo ()"
+            },
+            {
+                "name": "Memory Usage",
+                "value": "process.memoryUsage ()"
+            },
+            {
+                "name": "Heap Statistics",
+                "value": "process.getHeapStatistics ()"
+            },
+            {
+                "name": "Process Uptime (Sec.)",
+                "value": "process.uptime ()"
+            },
+            {
+                "name": "Command Line Arguments",
+                "value": "process.argv"
+            },
+            {
+                "name": "Original Argument [0]",
+                "value": "process.argv0"
+            },
+            {
+                "name": "Executable File",
+                "value": "process.execPath"
+            },
+            {
+                "name": "Helper Executable File",
+                "value": "process.helperExecPath"
+            }
+        ]
+    },
+    {
+        "category": "Application",
+        "items":
+        [
+            {
+                "name": "Name",
+                "value": "require ('electron').remote.app.name"
+            },
+            {
+                "name": "Version",
+                "value": "require ('electron').remote.app.getVersion ()"
+            },
+            {
+                "name": "Locale",
+                "value": "require ('electron').remote.app.getLocale ()"
+            },
+            {
+                "name": "Packaged",
+                "value": "require ('electron').remote.app.isPackaged"
+            },
+            {
+                "name": "Application Directory",
+                "value": "require ('electron').remote.app.getAppPath ()"
+            },
+            {
+                "name": "Home Directory",
+                "value": "require ('electron').remote.app.getPath ('home')"
+            },
+            {
+                "name": "Data Directory",
+                "value": "require ('electron').remote.app.getPath ('appData')"
+            },
+            {
+                "name": "User Data Directory",
+                "value": "require ('electron').remote.app.getPath ('userData')"
+            },
+            {
+                "name": "Logs Directory",
+                "value": "require ('electron').remote.app.getPath ('logs')"
+            },
+            {
+                "name": "Temporary Directory",
+                "value": "require ('electron').remote.app.getPath ('temp')"
+            },
+            {
+                "name": "Executable File",
+                "value": "require ('electron').remote.app.getPath ('exe')"
+            },
+            {
+                "name": "Chromium File",
+                "value": "require ('electron').remote.app.getPath ('module')"
+            },
+            {
+                "name": "Desktop Directory",
+                "value": "require ('electron').remote.app.getPath ('desktop')"
+            },
+            {
+                "name": "Documents Directory",
+                "value": "require ('electron').remote.app.getPath ('documents')"
+            },
+            {
+                "name": "Downloads Directory",
+                "value": "require ('electron').remote.app.getPath ('downloads')"
+            },
+            {
+                "name": "Music Directory",
+                "value": "require ('electron').remote.app.getPath ('music')"
+            },
+            {
+                "name": "Pictures Directory",
+                "value": "require ('electron').remote.app.getPath ('pictures')"
+            },
+            {
+                "name": "Videos Directory",
+                "value": "require ('electron').remote.app.getPath ('videos')"
+            },
+            {
+                "name": "Pepper Flash Plugin",
+                "value": "require ('electron').remote.app.getPath ('pepperFlashSystemPlugin')"
+            },
+            {
+                "name": "GPU Feature Status",
+                "value": "require ('electron').remote.app.getGPUFeatureStatus ()"
+            },
+            {
+                "name": "GPU Basic Info",
+                "value": "require ('electron').remote.app.getGPUInfo ('basic')"
+            },
+            {
+                "name": "App Process Metrics",
+                "value": "require ('electron').remote.app.getAppMetrics ()"
+            }
+        ]
+    },
+    {
+        "category": "Navigator",
+        "items":
+        [
+            {
+                "name": "Code Name",
+                "value": "navigator.appCodeName"
+            },
+            {
+                "name": "Name",
+                "value": "navigator.appName"
+            },
+            {
+                "name": "Version",
+                "value": "navigator.appVersion"
+            },
+            {
+                "name": "Cookie Enabled",
+                "value": "navigator.cookieEnabled"
+            },
+            {
+                "name": "Device Memory (GB)",
+                "value": "navigator.deviceMemory"
+            },
+            {
+                "name": "Hardware Concurrency",
+                "value": "navigator.hardwareConcurrency"
+            },
+            {
+                "name": "Language",
+                "value": "navigator.language"
+            },
+            {
+                "name": "Languages",
+                "value": "navigator.languages"
+            },
+            {
+                "name": "Max Touch Points",
+                "value": "navigator.maxTouchPoints"
+            },
+            {
+                "name": "Online",
+                "value": "navigator.onLine"
+            },
+            {
+                "name": "Platform",
+                "value": "navigator.platform"
+            },
+            {
+                "name": "Product",
+                "value": "navigator.product"
+            },
+            {
+                "name": "Build Number",
+                "value": "navigator.productSub"
+            },
+            {
+                "name": "User Agent",
+                "value": "navigator.userAgent"
+            },
+            {
+                "name": "Vendor",
+                "value": "navigator.vendor"
+            }
+        ]
+    },
+    {
+        "category": "Operating System",
+        "items":
+        [
+            {
+                "name": "Host Name",
+                "value": "require ('os').hostname ()"
+            },
+            {
+                "name": "Home Directory",
+                "value": "require ('os').homedir ()"
+            },
+            {
+                "name": "OS Type",
+                "value": "require ('os').type ()"
+            },
+            {
+                "name": "OS Platform",
+                "value": "require ('os').platform ()"
+            },
+            {
+                "name": "OS Release",
+                "value": "require ('os').release ()"
+            },
+            {
+                "name": "Temporary Directory",
+                "value": "require ('os').tmpdir ()"
+            },
+            {
+                "name": "CPU Architecture",
+                "value": "require ('os').arch ()"
+            },
+            {
+                "name": "CPU Endianness",
+                "value": "require ('os').endianness ()"
+            },
+            {
+                "name": "CPU Logical Cores",
+                "value": "(require ('os').cpus ()).length"
+            },
+            {
+                "name": "CPU Model",
+                "value": "(require ('os').cpus ())[0].model"
+            },
+            {
+                "name": "CPU Speed (MHz)",
+                "value": "(require ('os').cpus ())[0].speed"
+            },
+            {
+                "name": "End-of-Line Marker",
+                "value": "JSON.stringify (require ('os').EOL).slice (1, -1)"
+            },
+            {
+                "name": "Total System Memory",
+                "value": "require ('os').totalmem ()"
+            },
+            {
+                "name": "Free System Memory",
+                "value": "require ('os').freemem ()"
+            },
+            {
+                "name": "System Uptime (Sec.)",
+                "value": "require ('os').uptime ()"
+            }
+        ]
+    },
+    {
+        "category": "OS User Info",
+        "items":
+        [
+            {
+                "name": "Username",
+                "value": "require ('os').userInfo ().username"
+            },
+            {
+                "name": "Home Directory",
+                "value": "require ('os').userInfo ().homedir"
+            },
+            {
+                "name": "User ID",
+                "value": "require ('os').userInfo ().uid"
+            },
+            {
+                "name": "Group ID",
+                "value": "require ('os').userInfo ().gid"
+            },
+            {
+                "name": "Shell",
+                "value": "require ('os').userInfo ().shell"
+            }
+        ]
+    },
+    {
+        "category": "Screen",
+        "items":
+        [
+            {
+                "name": "Unique ID",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().id"
+            },
+            {
+                "name": "Internal Display",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().internal"
+            },
+            {
+                "name": "Rotation",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().rotation"
+            },
+            {
+                "name": "Scale Factor",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().scaleFactor"
+            },
+            {
+                "name": "Screen Bounds",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().bounds"
+            },
+            {
+                "name": "Screen Size",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().size"
+            },
+            {
+                "name": "Work Area Bounds",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().workArea"
+            },
+            {
+                "name": "Work Area Size",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().workAreaSize"
+            },
+            {
+                "name": "Monochrome",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().monochrome"
+            },
+            {
+                "name": "Color Depth",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().colorDepth"
+            },
+            {
+                "name": "Depth per Component",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().depthPerComponent"
+            },
+            {
+                "name": "Color Space",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().colorSpace"
+            },
+            {
+                "name": "Touch Support",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().touchSupport"
+            },
+            {
+                "name": "Accelerometer Support",
+                "value": "require ('electron').remote.screen.getPrimaryDisplay ().accelerometerSupport"
+            }
+        ]
+    },
+    {
+        "category": "Window",
+        "items":
+        [
+            {
+                "name": "Unique ID",
+                "value": "require ('electron').remote.getCurrentWindow ().id"
+            },
+            {
+                "name": "Title",
+                "value": "require ('electron').remote.getCurrentWindow ().getTitle ()"
+            },
+            {
+                "name": "Bounds",
+                "value": "require ('electron').remote.getCurrentWindow ().getBounds ()"
+            },
+            {
+                "name": "Position",
+                "value": "require ('electron').remote.getCurrentWindow ().getPosition ()"
+            },
+            {
+                "name": "Size",
+                "value": "require ('electron').remote.getCurrentWindow ().getSize ()"
+            },
+            {
+                "name": "Minimum Size",
+                "value": "require ('electron').remote.getCurrentWindow ().getMinimumSize ()"
+            },
+            {
+                "name": "Maximum Size",
+                "value": "require ('electron').remote.getCurrentWindow ().getMaximumSize ()"
+            },
+            {
+                "name": "Content Bounds",
+                "value": "require ('electron').remote.getCurrentWindow ().getContentBounds ()"
+            },
+            {
+                "name": "Content Size",
+                "value": "require ('electron').remote.getCurrentWindow ().getContentSize ()"
+            },
+            {
+                "name": "Normal Bounds",
+                "value": "require ('electron').remote.getCurrentWindow ().getNormalBounds ()"
+            },
+            {
+                "name": "Normal State",
+                "value": "require ('electron').remote.getCurrentWindow ().isNormal ()"
+            },
+            {
+                "name": "Minimized",
+                "value": "require ('electron').remote.getCurrentWindow ().isMinimized ()"
+            },
+            {
+                "name": "Maximized",
+                "value": "require ('electron').remote.getCurrentWindow ().isMaximized ()"
+            },
+            {
+                "name": "Full-Screen",
+                "value": "require ('electron').remote.getCurrentWindow ().isFullScreen ()"
+            },
+            {
+                "name": "Movable",
+                "value": "require ('electron').remote.getCurrentWindow ().movable"
+            },
+            {
+                "name": "Resizable",
+                "value": "require ('electron').remote.getCurrentWindow ().resizable"
+            },
+            {
+                "name": "Closable",
+                "value": "require ('electron').remote.getCurrentWindow ().closable"
+            },
+            {
+                "name": "Minimizable",
+                "value": "require ('electron').remote.getCurrentWindow ().minimizable"
+            },
+            {
+                "name": "Maximizable",
+                "value": "require ('electron').remote.getCurrentWindow ().maximizable"
+            },
+            {
+                "name": "Full-Screenable",
+                "value": "require ('electron').remote.getCurrentWindow ().fullScreenable"
+            },
+            {
+                "name": "Auto-Hide Menu Bar",
+                "value": "require ('electron').remote.getCurrentWindow ().autoHideMenuBar"
+            },
+            {
+                "name": "Menu Bar Visible",
+                "value": "require ('electron').remote.getCurrentWindow ().isMenuBarVisible ()"
+            },
+            {
+                "name": "Has Shadow",
+                "value": "require ('electron').remote.getCurrentWindow ().hasShadow ()"
+            },
+            {
+                "name": "Visible On All Workspaces",
+                "value": "require ('electron').remote.getCurrentWindow ().isVisibleOnAllWorkspaces ()"
+            },
+            {
+                "name": "Always On Top",
+                "value": "require ('electron').remote.getCurrentWindow ().isAlwaysOnTop ()"
+            },
+            {
+                "name": "Kiosk",
+                "value": "require ('electron').remote.getCurrentWindow ().isKiosk ()"
+            },
+            {
+                "name": "Opacity",
+                "value": "require ('electron').remote.getCurrentWindow ().getOpacity ()"
+            },
+            {
+                "name": "URL",
+                "value": "require ('electron').remote.getCurrentWindow ().getURL ()"
+            }
+        ]
+    }
+]

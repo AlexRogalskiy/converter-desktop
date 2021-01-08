@@ -1,0 +1,48 @@
+<section id="romaji-kana-unit">
+    <h1>Rōmaji-Kana Converter</h1>
+    <div class="plain-panel">
+        <h2>Rōmaji to Kana</h2>
+        <div class="kana-options">
+            <span>hiragana:&nbsp;</span>
+            <select class="romaji-hiragana-select">
+                <option value="kun-yomi">Kun-Yomi</option>
+                <option value="gairaigo">Gairaigo</option>
+            </select>
+            <span>KATAKANA:&nbsp;</span>
+            <select class="romaji-katakana-select">
+                <option value="on-yomi">On-Yomi</option>
+                <option value="gairaigo">Gairaigo</option>
+            </select>
+        </div>
+        <div><label class="text">Rōmaji:&nbsp;<input class="romaji-input" type="text"></label></div>
+        <div><label class="text">Kana:&nbsp;&nbsp;&nbsp;&nbsp;<input lang="ja" class="kana-output" type="text" readonly></label></div>
+    </div>
+    <div class="plain-panel">
+        <h2>Kana to Rōmaji</h2>
+        <div><label class="text">Kana:&nbsp;&nbsp;&nbsp;&nbsp;<input lang="ja" class="kana-input" type="text"></label></div>
+        <div><label class="text">Rōmaji:&nbsp;<input class="romaji-output" type="text" readonly></label></div>
+    </div>
+    <div class="accent-panel">
+        <details class="correlation-tables">
+            <summary>Correlation Tables</summary>
+            <div class="hepburn-tables"></div>
+            <p>
+                <strong>Notes</strong>:
+                <ul>
+                    <li>The prolonged sound mark <code>ー</code> is obtained by using the hyphen-minus character <code>-</code>.</li>
+                    <li>Geminate sounds (double consonants) are obtained by doubling the first consonant of the next syllable.</li>
+                    <li>The apostrophe <code>'</code> is used to disambiguate syllables made of a <code>n</code> or <code>N</code> followed by a vowel or semi-vowel.</li>
+                    <li>Abbreviations for conversion intent are <code lang="ja">訓</code>: Kun-Yomi; <code lang="ja">音</code lang="ja">: On-Yomi; <code lang="ja">外</code lang="ja">: Gairaigo.</li>
+                </ul>
+            </p>
+        </details>
+        <details class="examples">
+            <summary>Examples</summary>
+            <div class="examples-table"></div>
+        </details>
+        <details class="references">
+            <summary>References</summary>
+            <div class="links"></div>
+        </details>
+    </div>
+</section>
